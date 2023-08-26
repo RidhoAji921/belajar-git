@@ -1,3 +1,14 @@
+class balok {
+  panjang: number = 0;
+  lebar: number = 0;
+  tinggi: number = 0;
+  constructor(panjang: number, lebar: number, tinggi: number) {
+    this.panjang = panjang;
+    this.lebar = lebar;
+    this.tinggi = tinggi;
+  }
+}
+
 function persegi(sisi:number) {
   return sisi*sisi
 }
