@@ -23,3 +23,5 @@ function segitiga(tinggi:number, alas:number) {
 
 console.log(persegi(4));
 console.log(segitiga(2, 8));
+
+console.log();
